@@ -8,6 +8,6 @@ git push origin main
 echo "Code Pushed Successfully ..."
 
 echo "Pushing the HW to the Machine branch ..."
-git add Machine/*
+git add Machines/*
 git push origin machine_branch
 
