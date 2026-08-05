@@ -20,4 +20,4 @@ if [ "$machine_branch" != "main" ]; then
     git push origin machine_branch
 fi
 
-echo "Code Pushed Successfully to the Machine branch ..."
+
