@@ -1,3 +1,5 @@
+echo "Pulling all the remote machines ..."
+git branch -r | sed 's|origin/||'
 echo "Select the machine branch , Copy and paste it ..."
 read machine_branch
 
