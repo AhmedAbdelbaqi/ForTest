@@ -6,6 +6,11 @@ read machine_branch
 echo "Handling the Push Command ..."
 echo "adding the Code to the main ..."
 git add Code/*
+echo "Please enter a commit message: "
+read commit_message
+git commit -m "$commit_message"
+
+echo "Pushing to the main branch ..."
 git push origin main 
 echo "Code Pushed Successfully ..."
 
